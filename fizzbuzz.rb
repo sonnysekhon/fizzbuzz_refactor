@@ -1,4 +1,5 @@
-1.upto(100) do |i|
+def fizzbuzz(a,b)
+  a.upto(b) do |i|
   if i % 5 == 0 && i % 3 == 0
     puts "FizzBuzz"
   elsif i % 5 == 0
@@ -8,4 +9,6 @@
   else
     puts i
   end
+  end
 end
+fizzbuzz(4,60)
